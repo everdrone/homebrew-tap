@@ -1,8 +1,8 @@
 class Obfus < Formula
   desc "File compression and encryption tool"
-  homepage ""
-  url "https://github.com/everdrone/obfus/archive/v0.1.1.tar.gz"
-  sha256 "33dfe9736edcb3229e07af7aaf8328445324c28702dcf07de98aef5c1c5bd301"
+  homepage "https://github.com/everdrone/obfus"
+  url "https://github.com/everdrone/obfus/archive/v0.1.2.tar.gz"
+  sha256 "6d12d80a619c50945f87a439f24263b1999cbd419af5baa2577608d8dc9c2857"
 
   def install
     system "rake", "install", "prefix=#{prefix}"
