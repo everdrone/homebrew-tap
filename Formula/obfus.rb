@@ -6,8 +6,7 @@ class Obfus < Formula
 
   epends_on "ruby" if MacOS.version <= :sierra
   depends_on "brotli"
-  depends_on "gpg"
-  depends_on "gpg2" => :recommended
+  depends_on "gnupg"
 
   def install
     system "rake", "mklink", "prefix=#{prefix}"
