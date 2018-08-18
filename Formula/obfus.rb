@@ -1,8 +1,8 @@
 class Obfus < Formula
   desc "File compression and encryption tool"
   homepage "https://github.com/everdrone/obfus"
-  url "https://github.com/everdrone/obfus/archive/v0.1.4.tar.gz"
-  sha256 "083f14d0327d6bbb8b9c0cebb838755999020105b4eaf404f1031d201766836d"
+  url "https://github.com/everdrone/obfus/archive/v0.1.5.tar.gz"
+  sha256 "4f954d2308c1433007817a79e73d83dd90ee343a615282a36fcdc8f5412e6bce"
 
   epends_on "ruby" if MacOS.version <= :sierra
 
