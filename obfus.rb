@@ -5,7 +5,7 @@ class Obfus < Formula
   sha256 "33dfe9736edcb3229e07af7aaf8328445324c28702dcf07de98aef5c1c5bd301"
 
   def install
-    bin.install "obfus"
+    bin.install "bin/obfus"
   end
 
   # test do
