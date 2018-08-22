@@ -2,7 +2,7 @@ class Obfus < Formula
   desc "File compression and encryption tool"
   homepage "https://github.com/everdrone/obfus"
   url "https://github.com/everdrone/obfus.git",
-    :tag => "v0.1.5"
+    :tag => "v0.1.5",
     :revision => "014ed7cdd1f547ce420ea90f7463636c42cb8922"
 
   epends_on "ruby" if MacOS.version <= :sierra
