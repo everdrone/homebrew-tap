@@ -9,6 +9,6 @@ class Genpasswd < Formula
 
   def install
     # system "rake", "mklink", "prefix=#{prefix}"
-    bin.install 'genpasswd'
+    bin.install 'bin/genpasswd'
   end
 end
