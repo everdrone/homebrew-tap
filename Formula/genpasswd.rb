@@ -7,8 +7,11 @@ class Genpasswd < Formula
   depends_on :ruby if MacOS.version <= :sierra
 
   def install
+    ENV["GEM_HOME"] = libexec
+
     system "gem", "build", "genpasswd.gemspec"
     system "gem", "install", "--ignore-dependencies", "genpasswd-#{version}.gem"
+
     bin.install "bin/genpasswd"
   end
 end
