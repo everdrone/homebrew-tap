@@ -1,8 +1,8 @@
 class Genpasswd < Formula
   desc 'Generates iOS style strong password suggested by Safari'
   homepage ''
-  url 'https://github.com/everdrone/genpasswd/archive/v0.1.3.tar.gz'
-  sha256 '17abe514f2ebe1b82e13153cec3a1913144a94d68d84a607f1e6fa79350ba6cb'
+  url 'https://github.com/everdrone/genpasswd/archive/v0.1.4.tar.gz'
+  sha256 'c12a39578b0f4433bf8445c1706fd5cb1ce58b05ba453f4a7f5cbe41f3a29ac1'
 
   depends_on "ruby" if MacOS.version <= :sierra
 
